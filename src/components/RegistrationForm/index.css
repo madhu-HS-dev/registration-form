@@ -1,0 +1,145 @@
+/* Write your CSS code here */
+.registration-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-weight: 550;
+  font-size: 45px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.success-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .success-card-container {
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.input-container {
+  margin-bottom: 35px;
+}
+
+.label-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.input {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  width: 100%;
+  border: solid 1px #cbd2d9;
+  border-radius: 5px;
+  height: 55px;
+  padding: 10px;
+  font-size: 22px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 450;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.submit-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #ea580c;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-button {
+    width: 120px;
+    align-self: center;
+  }
+}
+
+.success-image {
+  width: 100px;
+}
+
+.success-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.submit-another-response-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #ea580c;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-another-response-button {
+    width: 280px;
+    align-self: center;
+  }
+}
+
+.error-input {
+  background-color: #fef2f4;
+  border-color: #ea580c;
+}
